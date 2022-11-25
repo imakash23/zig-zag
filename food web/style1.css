@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/pexels-creative-vix-370984.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.container{
+    
+    height: 100%;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgba(235, 206, 166, 0.908);
+    font-weight: 100;
+    font-size: 60px;
+    transition-duration: 1.5s;
+  
+   
+  
+}
+
+.hotel{
+    margin: 20px;
+    
+}
+
+.name{
+    padding: 10px 60px;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(124, 189, 247);
+    padding: 20px;
+    color: black;
+    column-gap: 2px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgb(57, 55, 55);
+    transition: 1s;
+}
+
+a:hover{
+    background-color: rgba(245, 130, 15, 0.623);
+    box-shadow: inset 10px 10px 20px rgb(79, 60, 1);
+    
+
+}
